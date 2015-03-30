@@ -1,0 +1,169 @@
+* {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+  content:"";
+  display:table;
+}
+
+.clearfix:after{
+  clear:both;
+}
+
+body {
+	background-color: #172121;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: 0.01em;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+#page-wrapper {
+	z-index: 4;
+	position: relative;
+	padding: 1.5em;
+	transition: transform 0.5s ease;
+	background-color: #172121;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 1em;
+}
+
+h2 {
+	font-family: 'Halant', serif;
+	font-weight: 300;
+	font-size: 2.2em;
+	line-height: 1.2em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+h4 {
+	display: inline-block;
+	font-size: 0.75em;
+}
+
+p {
+	font-family: 'Halant', serif;
+	font-size: 1em;
+}
+
+section {
+	margin-bottom: 1.5em;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.name {
+	z-index: 10;
+	position: fixed;
+	left: 2em;
+	top: 2em;
+	font-size: 0.75em;
+}
+
+#burger-el {
+	z-index: 8;
+	position: fixed;
+	right: 1.5em;
+	top: 1.5em;
+	font-size: 0.75em;
+}
+
+#burger-icon {
+	width: 1.3em;
+}
+
+nav {
+	z-index: 0;
+	width: 300px;
+	height: 100vh;
+	background-color: #172121;
+	position: fixed;
+	right: 0;
+	top: 0;
+	padding: 1.5em 1.5em 1.5em 1.5em;
+	transition: background-color 0.5s ease;
+}
+
+nav a {
+	font-size: 0.75em;
+	text-decoration: none;
+	padding: 0 0 0.3em 0;
+	border-bottom: 1px solid white;
+	color: white;
+}
+
+.nav-color-change {
+	background-color: #222D2B;
+}
+
+ul {
+	list-style: none;
+	padding: none;
+	line-height: 1.7em;
+}
+
+.contact {
+	padding-top: 3em;
+}
+
+.shift {
+	transform: translate(-300px);
+}
+
+.prev-next {
+	z-index: 9;
+	font-size: 0.75em;
+	position: fixed;
+	bottom: 1.5em;
+	left: 1.5em;
+}
+
+footer li {
+	display: inline;
+	padding: 0.2em;
+}
+
+#active-project-el {
+	z-index: 6;
+	max-width: 50%;
+	position: fixed;
+	left: 1.5em;
+}
+
+/*------------------------------------*/
+
+.wrapper {
+	z-index: 5;
+	position: relative;
+	margin: 8%;
+}
+
+img {
+	width: 100%;
+}
+
+.left-col {
+	width: 50%;
+	float: left;
+	padding-right: 0.2em;
+}
+
+.right-col {
+	max-width: 50%;
+	float: right;
+	padding-left: 0.2em;
+}
